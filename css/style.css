@@ -93,3 +93,15 @@ flex-wrap: wrap;
     font-weight: 600;
 }
 /***** End navbar *****/
+    /***** hero *****/
+    .hero{
+        position: relative;
+        min-height: 100vh;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)     
+        ),url(../assets/images/hero-cover.5.png);;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /***** End hero *****/
