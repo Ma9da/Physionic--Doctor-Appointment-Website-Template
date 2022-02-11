@@ -41,7 +41,6 @@ flex-wrap: wrap;
     align-items: center;
 }
 .navbar{
-    position: absolute;
     top: 0;
     width: 100%;
     z-index: 11;
@@ -94,7 +93,7 @@ flex-wrap: wrap;
 }
 /***** End navbar *****/
     /***** hero *****/
-    .hero{
+    .hero-bg{
         height: 100vh;
         background: linear-gradient(
             rgba(0, 0, 0, 0.5),
@@ -102,7 +101,11 @@ flex-wrap: wrap;
             ),url(../assets/images/hero-cover.5.png);;
             background-repeat: no-repeat;
             background-size: cover;
-            position: relative;
+    }
+    .hero .flex-container{
+        justify-content: space-between;
+        align-items: end;
+        padding-top: 2rem;
     }
     .hero__info{
         width: 48%;
@@ -149,6 +152,9 @@ flex-wrap: wrap;
         -moz-border-radius: 10px;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
+}
+.hero__form h3{
+    padding: 15px 0;
 }
     .hero__form-form{
         display: flex;
