@@ -32,7 +32,7 @@ display: flex;
 flex-wrap: wrap;
 }
 .container{
-    width: 70%;
+    width: 75%;
     margin: 0 auto;
     max-width: 1440px;
 }
@@ -59,7 +59,7 @@ flex-wrap: wrap;
 }
 .navbar__list{
     display: flex;
-    margin-left: 9%;
+    margin-left: 5%;
     align-items: center;
 }
 .navbar__action{
@@ -93,15 +93,3 @@ flex-wrap: wrap;
     font-weight: 600;
 }
 /***** End navbar *****/
-/***** hero *****/
-.hero{
-    position: relative;
-    height: 100vh;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.5),
-        rgba(0, 0, 0, 0.5)     
-    ),url(../assets/images/hero-cover.5.png);;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-/***** End hero *****/
