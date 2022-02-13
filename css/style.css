@@ -187,3 +187,24 @@ flex-wrap: wrap;
         -o-border-radius: 5px;
 }
     /***** End hero *****/
+    /***** media query *****/
+
+    /***** laptop screen *****/
+    @media screen and (max-width: 1024px) {
+        h2 {
+            color: blue !important;
+        }
+        .hero .flex-container{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-top: 2rem;
+        }
+        .hero__info{
+            width: 100%;
+        }
+        .hero__form{
+            width: 70%;
+        }
+    }
+    /***** End media query *****/
