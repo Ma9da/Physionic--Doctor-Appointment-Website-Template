@@ -228,11 +228,23 @@ flex-wrap: wrap;
         }
     }
     @media screen and (max-width:426px) {
-        h2{
+        /* h2{
             color: tomato;
-        }
+        } */
             .container{
             width: 95%;
+        }
+        .hero-bg{
+            background-position-x: 25%;
+            /* transform: scaleX(-1);
+            -webkit-transform: scaleX(-1);
+            -moz-transform: scaleX(-1);
+            -ms-transform: scaleX(-1);
+            -o-transform: scaleX(-1); */
+        }
+        .hero__title{
+            font-size: 40px;
+            font-weight: 700;
         }
         .navbar__list{
             display: none;
@@ -251,6 +263,9 @@ flex-wrap: wrap;
             flex-direction: column;
             justify-content: space-around;
             align-items: center;
+        }
+        .hero__action button{
+            margin: 10px 0;
         }
         .hero__info{
             width: 100%;
