@@ -61,6 +61,11 @@ flex-wrap: wrap;
     margin-left: 12%;
     align-items: center;
 }
+.navbar__list-responsive{
+    display: flex;
+    margin-left: 12%;
+    align-items: center;
+}
 .navbar__action{
     margin-left: auto;
 }
@@ -94,7 +99,7 @@ flex-wrap: wrap;
 /***** End navbar *****/
     /***** hero *****/
     .hero-bg{
-        height: 100vh;
+        padding-bottom: 2rem;
         background: linear-gradient(
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)     
@@ -188,23 +193,73 @@ flex-wrap: wrap;
 }
     /***** End hero *****/
     /***** media query *****/
-
+    /***** large screen *****/
+    @media screen and (min-width:1024px) {
+        .navbar__list-responsive{
+            display: none;
+        }
+    }
     /***** laptop screen *****/
-    @media screen and (max-width: 1024px) {
-        h2 {
+    @media screen and (max-width: 1025px) and (min-width:425px) {
+        /* h2 {
             color: blue !important;
+        } */
+        .navbar .flex-container{
+            justify-content: space-between;
+        }
+        .navbar__list{
+            display: none;
+        }
+        .navbar__action{
+            display: none;
         }
         .hero .flex-container{
             justify-content: center;
             align-items: center;
             flex-direction: column;
-            padding-top: 2rem;
         }
         .hero__info{
             width: 100%;
+            padding: 2rem 0;
+            text-align: center;
         }
         .hero__form{
             width: 70%;
         }
+    }
+    @media screen and (max-width:426px) {
+        h2{
+            color: tomato;
+        }
+            .container{
+            width: 95%;
+        }
+        .navbar__list{
+            display: none;
+        }
+        .navbar__action{
+            display: none;
+        }
+        .hero .flex-container{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .hero__action {
+            padding: 40px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .hero__info{
+            width: 100%;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .hero__form{
+            width: 90%;
+        }
+        
     }
     /***** End media query *****/
