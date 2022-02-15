@@ -120,8 +120,7 @@ flex-wrap: wrap;
         background: linear-gradient(
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)     
-            ),url(../assets/images/hero-cover.5.png);;
-            background-repeat: no-repeat;
+            ), no-repeat url(../assets/images/hero-cover.5.png);
             background-size: cover;
     }
     .hero .flex-container{
@@ -253,11 +252,6 @@ flex-wrap: wrap;
         }
         .hero-bg{
             background-position-x: 25%;
-            /* transform: scaleX(-1);
-            -webkit-transform: scaleX(-1);
-            -moz-transform: scaleX(-1);
-            -ms-transform: scaleX(-1);
-            -o-transform: scaleX(-1); */
         }
         .hero__title{
             font-size: 40px;
