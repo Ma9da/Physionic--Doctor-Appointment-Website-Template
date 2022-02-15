@@ -88,6 +88,7 @@ flex-wrap: wrap;
     margin-left: 7px;
     width: 12px;
     height: 10px;
+    fill: var(--light-text-color);
 }
 .search-icon{
     width: 24px;
@@ -209,7 +210,7 @@ flex-wrap: wrap;
         }
     }
     /***** laptop screen *****/
-    @media screen and (max-width: 1025px) and (min-width:425px) {
+    @media screen and (max-width: 1200px) and (min-width:577px) {
         /* h2 {
             color: blue !important;
         } */
@@ -236,10 +237,7 @@ flex-wrap: wrap;
             width: 70%;
         }
     }
-    @media screen and (max-width:426px) {
-        /* h2{
-            color: tomato;
-        } */
+    @media screen and (max-width:576px) {
             .container{
             width: 95%;
         }
