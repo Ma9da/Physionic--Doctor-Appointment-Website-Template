@@ -129,6 +129,11 @@ flex-wrap: wrap;
 }
 .leading__cards{
     padding-top: 115px;
+    display: flex;
+}
+.leading__cards-card{
+    width: 33.33%;
+    margin: 0 12px;
 }
 .leading__cards-card-info ul{
         width: 328px;
