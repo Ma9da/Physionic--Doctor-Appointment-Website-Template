@@ -36,6 +36,13 @@ flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1440px;
 }
+.btn{
+    color: var(--light-text-color);
+    background: var(--primary-color) !important;
+    text-transform: capitalize;
+    font-weight: 700;
+    border: 0;
+}
 /***** navbar  *****/
 .navbar .flex-container {
     align-items: center;
@@ -76,12 +83,6 @@ flex-wrap: wrap;
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
-    border: none;
-    color: var(--light-text-color);
-    text-transform: capitalize;
-    background-color: var(--primary-color);
-    font-weight: 600;
-
 }
 .rigth-arrow-icon{
     margin-left: 7px;
@@ -145,23 +146,18 @@ flex-wrap: wrap;
         padding-top: 40px;
     }
     .active-btn{
-        padding: 15px 36px 15px 36px;
-    border: 0;
-    border-radius: 37px;
-    font-weight: 700;
-    color: var(--light-text-color);
-    background-color: var(--primary-color);
-    text-transform: capitalize;
+        padding: 15px 36px ;
+        border-radius: 37px;
+        text-transform: capitalize;
     }
     .diasbled-btn{
-        padding: 15px 36px 15px 36px;
+        padding:  15px 36px;
         border: 2px solid var(--light-text-color);
         border-radius: 37px;
         font-weight: 700;
         color: var(--light-text-color);
         background-color: #73737300;
         text-transform: capitalize;
-
     }
     .hero__form{
         width: 22%;
@@ -196,11 +192,8 @@ flex-wrap: wrap;
     padding: 15px 0;
     }
     .hero__form-form input[type=submit]{
-        background-color: var(--primary-color);
         margin-top: 30px;
         font-weight: 700;
-        color: var(--light-text-color);
-        border: 0;
         border-radius: 5px;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
