@@ -105,3 +105,63 @@ flex-wrap: wrap;
     background-size: cover;
 }
 /***** End hero *****/
+/***** leading *****/
+.leading .flex-container{
+    align-content: center;
+    flex-direction: column;
+}
+.leading{
+    padding: 50px 0;
+}
+.section__header{
+    text-align: center;
+}
+.section__title{
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 27px;
+}
+.section__desc{
+    color: var(--second-text-color);
+    text-align: center;
+}
+.leading__cards{
+    padding-top: 115px;
+}
+.leading__cards-card-info ul{
+        position: relative;
+        list-style: none;
+        margin-left: 0;
+        padding-left: 1.2rem;
+    
+}
+.leading__cards-card-header{
+    display: flex;
+    background: var(--disabled-color);
+    color: var(--light-text-color);
+    font-weight: 700;
+    text-transform: capitalize;
+    width: 334px;
+    height: 132px;
+    align-items: center;
+    padding: 30px 50px 30px 50px;
+    border-radius: 11px 11px 0 0;
+}
+.card-icon{
+    width: 72px;
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    margin: 0 15px 0 0;
+}
+.leading__cards-card-info  li:before {
+    content: "-";
+    position: absolute;
+    left: 0;
+}
+/***** End leading *****/
