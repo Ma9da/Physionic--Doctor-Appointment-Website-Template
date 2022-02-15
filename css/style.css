@@ -156,7 +156,7 @@ flex-wrap: wrap;
         border-radius: 37px;
         font-weight: 700;
         color: var(--light-text-color);
-        background-color: #73737300;
+        background-color:  rgba(0, 0, 0, 0.5);
         text-transform: capitalize;
     }
     .hero__form{
