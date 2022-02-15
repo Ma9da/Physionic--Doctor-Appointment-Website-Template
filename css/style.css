@@ -125,7 +125,7 @@ flex-wrap: wrap;
     }
     .hero .flex-container{
         justify-content: space-between;
-        align-items: end;
+        align-items: center;
         padding-top: 2rem;
     }
     .hero__info{
