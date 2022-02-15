@@ -83,8 +83,25 @@ flex-wrap: wrap;
     font-weight: 600;
 
 }
-.navbar__action svg{
+.rigth-arrow-icon{
     margin-left: 7px;
+    width: 12px;
+    height: 10px;
+}
+.search-icon{
+    width: 24px;
+    height: 24px;
+    fill: var(--light-text-color);
+}
+.cart-icon{
+    width: 24px;
+    height: 23px;
+    fill: var(--light-text-color);
+}
+.menu-icon{
+    width: 24px;
+    height: 14px;
+    fill: var(--light-text-color);
 }
 .navbar__list-item{
     margin-right: auto;
