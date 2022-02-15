@@ -105,3 +105,63 @@ flex-wrap: wrap;
     background-size: cover;
 }
 /***** End hero *****/
+/***** reviews *****/
+.reviews{
+    background: var(--light-gray);
+    padding: 50px 0;
+}
+.reviews .flex-container{
+    align-items: center;
+    flex-direction: column;
+}
+.section__header{
+    text-align: center;
+}
+.section__title{
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 27px;
+}
+.section__desc{
+    color: var(--second-text-color);
+    text-align: center;
+}
+.reviews__cards{
+    padding-top: 115px;
+    display: flex;
+}
+.solid-star-icon{
+    width: 20px;
+    height: 20px;
+    fill: #F3CD03;
+}
+.star-icon{
+    width: 20px;
+    height: 20px;
+    fill: #F3CD03;
+}
+.reviews__cards-card-info{
+    color: var(--second-text-color);
+    font-weight: 600;
+}
+.reviews__cards-card{
+    width: 324px;
+    height: 244.01px;
+    background-color: var(--light-text-color);
+    border: 1px solid  #DEDEDE;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 30px 35px;
+}
+.reviews__cards-card-info{
+    padding: 15px 0px 0px 0px;;
+}
+.reviews__cards-card-img{
+    width: 25%;
+}
+/***** End reviews *****/
