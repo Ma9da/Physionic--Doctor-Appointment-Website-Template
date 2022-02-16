@@ -106,5 +106,91 @@ flex-wrap: wrap;
 }
 /***** End hero *****/
 /***** faq *****/
-
+.reviews{
+    background: var(--light-gray);
+    padding: 50px 0;
+}
+.reviews .flex-container{
+    align-items: center;
+    flex-direction: column;
+}
+.section__header{
+    text-align: center;
+}
+.section__title{
+    color: var(--text-color);
+    font-weight: 700;
+    font-size: 40px;
+    text-transform: capitalize;
+    padding-bottom: 27px;
+}
+.section__desc{
+    color: var(--second-text-color);
+    text-align: center;
+}
+.faq .section__header{
+    margin-bottom: 115px;
+}
+.reviews__cards{
+    display: flex;
+}
+.reviews__cards-card-info{
+    color: var(--second-text-color);
+    font-weight: 600;
+    font-size: 14px;
+}
+.faq__cards-card-info{
+    margin: 5px 0;
+}
+.arrow-icon{
+    width: 9px;
+    height: 16px;
+    fill: var(--primary-color);
+}
+.faq__cards-card{
+    display: flex;
+    margin:  10px ;
+    width: 333px;
+    height: 151px;
+    padding: 25px;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    background: var(--light-text-color);
+}
+.faq__cards-card-header{
+    margin: 0 10px;
+}
+.faq__cards-card-body h4{
+font-weight: 700;
+text-align: left;
+color: var(--text-color);
+}
 /***** End faq *****/
+@media screen and (max-width: 1200px) and (min-width:577px){
+    .reviews__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews__cards-card{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width:576px) {
+    .container{
+        width: 90%;
+    }
+    .reviews__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews__cards-card{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+}
