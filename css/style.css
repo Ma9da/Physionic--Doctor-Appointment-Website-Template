@@ -120,7 +120,7 @@ flex-wrap: wrap;
 .section__title{
     color: var(--text-color);
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-transform: capitalize;
     padding-bottom: 27px;
 }
@@ -133,7 +133,7 @@ flex-wrap: wrap;
 }
 .pricing__packages-header h5{
     color: var(--text-color);
-    font-size: 24px;
+    font-size: 1.5rem;
     margin: 35px 0px;
     text-transform: uppercase;
 }
@@ -143,15 +143,15 @@ flex-wrap: wrap;
 .pricing__packages-header h4{
     color: var(--primary-color);
     padding: 20px 0;
-    font-size: 40px;
+    font-size: 2.5rem;
 }
 sub{
     color: var(--disabled-color);
     font-weight: 600;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 sup{
-    font-size: 16px;
+    font-size: 1rem;
 }
 .btn{
     color: var(--light-text-color);
@@ -194,7 +194,7 @@ sup{
 .pricing__packages-info li{
     color: var(--text-color);
     list-style-image: url(../assets/icons/icn-circle\ circle-xs\ secondary-color-1.svg); 
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 600;
     padding: 5px 0;
 }
