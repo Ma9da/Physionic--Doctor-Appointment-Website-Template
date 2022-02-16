@@ -55,7 +55,7 @@ flex-wrap: wrap;
 .navbar__logo a{
     text-transform: capitalize;
     color: var(--light-text-color);
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 .navbar__list{
     display: flex;
@@ -120,7 +120,7 @@ flex-wrap: wrap;
 .section__title{
     color: var(--text-color);
     font-weight: 700;
-    font-size: 40px;
+    font-size: 2.5rem;
     text-transform: capitalize;
     padding-bottom: 27px;
 }
