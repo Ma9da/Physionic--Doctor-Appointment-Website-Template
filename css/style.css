@@ -111,9 +111,10 @@ flex-wrap: wrap;
 .leading .flex-container{
     align-content: center;
     flex-direction: column;
+    justify-content: center;
 }
 .leading{
-    padding: 50px 0;
+    padding: 3.125rem 0;
 }
 .section__header{
     text-align: center;
@@ -129,6 +130,7 @@ flex-wrap: wrap;
     color: var(--second-text-color);
     text-align: center;
 }
+
 .leading__cards{
     padding-top: 115px;
     display: flex;
@@ -169,7 +171,7 @@ flex-wrap: wrap;
     width: 334px;
     height: 132px;
     align-items: center;
-    padding: 30px 50px 30px 50px;
+    padding: 1.875rem 3.125rem;
     border-radius: 11px 11px 0 0;
 }
 .card-icon{
@@ -180,7 +182,7 @@ flex-wrap: wrap;
     align-items: center;
     background: white;
     border-radius: 50%;
-    margin: 0 15px 0 0;
+    margin: 0 0.9375rem 0 0;
 }
 .person-icon{
     width: 25px;
@@ -220,6 +222,8 @@ flex-wrap: wrap;
 .reviews__cards-card-info{
     color: var(--second-text-color);
     font-weight: 600;
+    padding: 0.9375rem 0 0 0;
+    font-size: 0.875rem;
 }
 .reviews__cards-card{
     width: 324px;
@@ -234,15 +238,50 @@ flex-wrap: wrap;
     padding: 1.875rem 2.1875rem;
     margin: 0 0.75rem;
 }
-.reviews__cards-card-info{
-    padding: 0.9375rem 0rem 0rem 0rem;;
-}
+
 .reviews__cards-card-img{
     width: 25%;
 }
 /***** End reviews *****/
 
+/***** faq *****/
+.faq .section__header{
+    margin-bottom: 7.1875rem;
+}
 
+.faq__cards-card-info{
+    margin: 0.3125rem 0;
+}
+.faq__cards.reviews__cards{
+    padding-top: 0;
+}
+.arrow-icon{
+    width: 9px;
+    height: 16px;
+    fill: var(--primary-color);
+}
+.faq__cards-card{
+    display: flex;
+    margin:  0.625rem ;
+    width: 333px;
+    height: 151px;
+    padding: 1.5625rem;
+    border-radius: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    -ms-border-radius: 9px;
+    -o-border-radius: 9px;
+    background: var(--light-text-color);
+}
+.faq__cards-card-header{
+    margin: 0 0.625rem;
+}
+.faq__cards-card-body h4{
+    font-weight: 700;
+    text-align: left;
+    color: var(--text-color);
+}
+/***** End faq *****/
 @media screen and (max-width: 1200px) and (min-width:577px){
     .leading__cards{
         flex-direction: column;
@@ -270,10 +309,8 @@ flex-wrap: wrap;
     }
     .reviews__cards-card-img {
         width: 14%;
-    }
-    
+    }   
 }
-
 @media screen and (max-width:576px) {
     .container{
         width: 90%;
@@ -313,3 +350,13 @@ flex-wrap: wrap;
         margin-bottom: 1.25rem;
     }
 }
+
+
+
+
+
+
+
+
+
+
