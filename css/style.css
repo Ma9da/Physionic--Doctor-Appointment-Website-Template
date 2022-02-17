@@ -45,7 +45,7 @@ flex-wrap: wrap;
     top: 0;
     width: 100%;
     z-index: 11;
-    padding: 10px 0;
+    padding: 0.625rem 0;
 }
 .navbar{
     display: flex;
@@ -66,7 +66,7 @@ flex-wrap: wrap;
     margin-left: auto;
 }
 .navbar__action button{
-    padding:20px 60px;
+    padding:1.25rem 3.75rem;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -84,10 +84,10 @@ flex-wrap: wrap;
 }
 .navbar__list-item{
     margin-right: auto;
-    padding: 0 15px;
+    padding: 0 0.9375rem;
 }
 .navbar__list-item a{
-    padding: 5px 10px;
+    padding: 0.3125rem 0.625rem;
     color: var(--light-text-color);
     text-transform: capitalize;
     font-weight: 600;
@@ -108,7 +108,7 @@ flex-wrap: wrap;
 /***** faq *****/
 .reviews{
     background: var(--light-gray);
-    padding: 50px 0;
+    padding: 3.125rem 0;
 }
 .reviews .flex-container{
     align-items: center;
@@ -122,14 +122,14 @@ flex-wrap: wrap;
     font-weight: 700;
     font-size: 2.5rem;
     text-transform: capitalize;
-    padding-bottom: 27px;
+    padding-bottom: 1.6875rem;
 }
 .section__desc{
     color: var(--second-text-color);
     text-align: center;
 }
 .faq .section__header{
-    margin-bottom: 115px;
+    margin-bottom: 7.1875rem;
 }
 .reviews__cards{
     display: flex;
@@ -140,7 +140,7 @@ flex-wrap: wrap;
     font-size: 0.875rem;
 }
 .faq__cards-card-info{
-    margin: 5px 0;
+    margin: 0.3125rem 0;
 }
 .arrow-icon{
     width: 9px;
@@ -149,10 +149,10 @@ flex-wrap: wrap;
 }
 .faq__cards-card{
     display: flex;
-    margin:  10px ;
+    margin:  0.625rem ;
     width: 333px;
     height: 151px;
-    padding: 25px;
+    padding: 1.5625rem;
     border-radius: 9px;
     -webkit-border-radius: 9px;
     -moz-border-radius: 9px;
@@ -161,7 +161,7 @@ flex-wrap: wrap;
     background: var(--light-text-color);
 }
 .faq__cards-card-header{
-    margin: 0 10px;
+    margin: 0 0.625rem;
 }
 .faq__cards-card-body h4{
 font-weight: 700;
@@ -177,7 +177,7 @@ color: var(--text-color);
     .reviews__cards-card{
         width: 100%;
         margin: 0;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 }
 @media screen and (max-width:576px) {
@@ -191,6 +191,6 @@ color: var(--text-color);
     .reviews__cards-card{
         width: 100%;
         margin: 0;
-        margin-bottom: 20px;
+        margin-bottom: 1.25rem;
     }
 }
