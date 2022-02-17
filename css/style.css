@@ -47,7 +47,7 @@ flex-wrap: wrap;
     top: 0;
     width: 100%;
     z-index: 11;
-    padding: 10px 0;
+    padding: 0.625rem 0;
 }
 .navbar{
     display: flex;
@@ -68,7 +68,7 @@ flex-wrap: wrap;
     margin-left: auto;
 }
 .navbar__action button{
-    padding:20px 60px;
+    padding:1.25rem 3.75rem;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -82,14 +82,14 @@ flex-wrap: wrap;
 
 }
 .navbar__action svg{
-    margin-left: 7px;
+    margin-left: 0.4375rem;
 }
 .navbar__list-item{
     margin-right: auto;
-    padding: 0 15px;
+    padding: 0 0.9375rem;
 }
 .navbar__list-item a{
-    padding: 5px 10px;
+    padding: 0.3125rem 0.625rem;
     color: var(--light-text-color);
     text-transform: capitalize;
     font-weight: 600;
@@ -123,7 +123,7 @@ flex-wrap: wrap;
     font-weight: 700;
     font-size: 2.5rem;
     text-transform: capitalize;
-    padding-bottom: 27px;
+    padding-bottom: 1.6875rem;
 }
 .section__desc{
     color: var(--second-text-color);
@@ -194,6 +194,55 @@ flex-wrap: wrap;
     display: none;
 }
 /***** End leading *****/
+/***** reviews *****/
+.reviews{
+    background: var(--light-gray);
+    padding: 3.125rem 0;
+}
+.reviews .flex-container{
+    align-items: center;
+    flex-direction: column;
+}
+.reviews__cards{
+    padding-top: 7.1875rem;
+    display: flex;
+}
+.solid-star-icon{
+    width: 20px;
+    height: 20px;
+    fill: #F3CD03;
+}
+.star-icon{
+    width: 20px;
+    height: 20px;
+    fill: #F3CD03;
+}
+.reviews__cards-card-info{
+    color: var(--second-text-color);
+    font-weight: 600;
+}
+.reviews__cards-card{
+    width: 324px;
+    height: 244.01px;
+    background-color: var(--light-text-color);
+    border: 1px solid  #DEDEDE;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 1.875rem 2.1875rem;
+    margin: 0 0.75rem;
+}
+.reviews__cards-card-info{
+    padding: 0.9375rem 0rem 0rem 0rem;;
+}
+.reviews__cards-card-img{
+    width: 25%;
+}
+/***** End reviews *****/
+
+
 @media screen and (max-width: 1200px) and (min-width:577px){
     .leading__cards{
         flex-direction: column;
@@ -210,36 +259,57 @@ flex-wrap: wrap;
     .leading__cards-card-header{
         width: 100%;
     }
+    .reviews__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews__cards-card{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1.25rem;
+    }
+    .reviews__cards-card-img {
+        width: 14%;
+    }
     
 }
 
-    @media screen and (max-width:576px) {
-        .container{
-            width: 90%;
-        }
-        .leading__cards-card-header{
-            background: var(--light-primary-color);
-        }
-        .leading__cards{
-            flex-direction: column;
-            align-items: center;
-        }
-        .leading__cards-card{
-            width: 100%;
-            margin: 0;
-            margin-bottom: 20px;
-        }
-        .leading__cards-card-info ul {
-            width: 100%;
-        }
-        .leading__cards-card-header{
-            width: 100%;
-            color: var(--text-color);
-        }
-        .person-icon{
-            display: none;
-        }
-        .frame-icon{
-            display: block;
-        }
+@media screen and (max-width:576px) {
+    .container{
+        width: 90%;
     }
+    .leading__cards-card-header{
+        background: var(--light-primary-color);
+    }
+    .leading__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .leading__cards-card{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .leading__cards-card-info ul {
+        width: 100%;
+    }
+    .leading__cards-card-header{
+        width: 100%;
+        color: var(--text-color);
+    }
+    .person-icon{
+        display: none;
+    }
+    .frame-icon{
+        display: block;
+    }
+    .reviews__cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reviews__cards-card{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 1.25rem;
+    }
+}
