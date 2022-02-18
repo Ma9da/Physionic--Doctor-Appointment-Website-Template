@@ -107,7 +107,7 @@ flex-wrap: wrap;
 /***** End hero *****/
 /***** footer *****/
 footer{
-    padding: 50px 0;
+    padding: 3.125rem 0;
 }
 footer .flex-container{
     justify-content: space-between;
@@ -117,13 +117,13 @@ footer .flex-container{
     font-weight: 700;
     text-transform: capitalize;
     font-size: 1.5rem;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 .footer__list-item{
     color: var(--second-text-color);
     font-size: 0.875rem;
     font-weight: 500;
-    padding: 10px 0;
+    padding: 0.625rem 0;
 }
 .footer__list-item a{
     font-weight: 600;
@@ -149,7 +149,7 @@ footer .flex-container{
     display: flex;
     justify-content: center;
     background: var(--light-gray);
-    padding: 15px 0;
+    padding: 0.9375rem 0;
 }
 .copyright p{
     color: var(--second-text-color);
