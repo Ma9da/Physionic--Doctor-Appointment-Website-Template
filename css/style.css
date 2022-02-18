@@ -449,28 +449,6 @@ flex-wrap: wrap;
     }   
 }
 /***** pricing *****/
-.reviews{
-    background: var(--light-gray);
-    padding: 50px 0;
-}
-.reviews .flex-container{
-    align-items: center;
-    flex-direction: column;
-}
-.section__header{
-    text-align: center;
-}
-.section__title{
-    color: var(--text-color);
-    font-weight: 700;
-    font-size: 2.5rem;
-    text-transform: capitalize;
-    padding-bottom: 27px;
-}
-.section__desc{
-    color: var(--second-text-color);
-    text-align: center;
-}
 .pricing__packages-header{
     font-weight: 700;
 }
@@ -505,7 +483,7 @@ sup{
 }
 .pricing__packages{
     display: flex;
-    padding: 115px 0;
+    padding: 7.1875rem 0;
     align-items: flex-end;
 }
 .pricing__packages-package{
@@ -569,63 +547,6 @@ sup{
     .container{
         width: 90%;
     }
-    .pricing__packages{
-        flex-direction: column;
-    }
-    .pricing__packages-package{
-        margin-bottom: 10px;
-    }
-}
-
-@media screen and (max-width:576px) {
-    .container{
-        width: 90%;
-    }
-    .search-icon{
-        display: block;
-    }
-    .cart-icon{
-        display: block;
-    }
-    .menu-icon{
-        display: block;
-    }
-    .hero-bg{
-        background-position-x: 25%;
-    }
-    .hero__title{
-        font-size: 2.5rem;
-        font-weight: 700;
-    }
-    .navbar__list{
-        display: none;
-    }
-    .navbar__action{
-        display: none;
-    }
-    .hero .flex-container{
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    .hero__action {
-        padding: 40px 0;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-    }
-    .hero__action button{
-        margin: 0.625rem 0;
-    }
-    .hero__info{
-        width: 100%;
-        padding: 2rem 0;
-        text-align: center;
-    }
-    .hero__form{
-        width: 90%;
-    }
     .leading__cards-card-header{
         background: var(--light-primary-color);
     }
@@ -659,6 +580,12 @@ sup{
         width: 100%;
         margin: 0;
         margin-bottom: 1.25rem;
+    }
+    .pricing__packages{
+        flex-direction: column;
+    }
+    .pricing__packages-package{
+        margin-bottom: 10px;
     }
 }
 
