@@ -99,16 +99,22 @@ flex-wrap: wrap;
     width: 24px;
     height: 24px;
     fill: var(--light-text-color);
+    display: none;
 }
 .cart-icon{
     width: 24px;
     height: 23px;
     fill: var(--light-text-color);
+    display: none;
 }
 .menu-icon{
     width: 24px;
     height: 14px;
     fill: var(--light-text-color);
+    display: none;
+}
+.navbar__action svg{
+    margin-left: 0.4375rem;
 }
 .navbar__list-item{
     margin-right: auto;
@@ -121,14 +127,16 @@ flex-wrap: wrap;
     font-weight: 600;
 }
 /***** End navbar *****/
-    /***** hero *****/
+/***** hero *****/
     .hero-bg{
-        padding-bottom: 2rem;
         background: linear-gradient(
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)     
             ), no-repeat url(../assets/images/hero-cover.5.png);
             background-size: cover;
+    }
+    .hero{
+        padding: 3.125rem 0;
     }
     .hero .flex-container{
         justify-content: space-between;
@@ -176,9 +184,9 @@ flex-wrap: wrap;
         -ms-border-radius: 10px;
         -o-border-radius: 10px;
 }
-.hero__form h3{
-    padding: 15px 0;
-}
+    .hero__form h3{
+        padding: 15px 0;
+    }
     .hero__form-form{
         display: flex;
         flex-direction: column;
@@ -255,12 +263,12 @@ flex-wrap: wrap;
         font-size: 0.875rem;
         line-height: 24px;
     }
-.leading__cards-card-info  li:before {
+.leading__cards-card-info-li:before {
         content: '-';
         position: relative;
         left: 0;
     }
-.leading__cards-card-info a{
+.leading__cards-card-info li  a{
         color: var(--primary-color);
     }
 .leading__cards-card-header{
@@ -447,6 +455,15 @@ flex-wrap: wrap;
     .navbar__action{
         display: none;
     }
+    .search-icon{
+        display: block;
+    }
+    .cart-icon{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+    }
     .hero .flex-container{
         justify-content: center;
         align-items: center;
@@ -512,6 +529,15 @@ flex-wrap: wrap;
 @media screen and (max-width:576px) {
     .container{
         width: 90%;
+    }
+    .search-icon{
+        display: block;
+    }
+    .cart-icon{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
     }
     .hero-bg{
         background-position-x: 25%;
