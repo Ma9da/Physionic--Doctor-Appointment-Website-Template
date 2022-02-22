@@ -260,12 +260,12 @@ flex-wrap: wrap;
         font-size: 0.875rem;
         line-height: 24px;
     }
-.leading__cards-card-info  li:before {
+.leading__cards-card-info-li:before {
         content: '-';
         position: relative;
         left: 0;
     }
-.leading__cards-card-info a{
+.leading__cards-card-info li  a{
         color: var(--primary-color);
     }
 .leading__cards-card-header{
