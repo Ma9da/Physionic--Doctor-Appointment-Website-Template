@@ -124,8 +124,9 @@ flex-wrap: wrap;
     font-weight: 600;
 }
 /***** End navbar *****/
-/***** hero *****/
+    /***** hero *****/
     .hero-bg{
+        padding-bottom: 2rem;
         background: linear-gradient(
             rgba(0, 0, 0, 0.5),
             rgba(0, 0, 0, 0.5)     
@@ -158,6 +159,10 @@ flex-wrap: wrap;
     }
     .active-btn{
         padding: 0.9375rem 2.25rem ;
+        padding-top: 40px;
+    }
+    .active-btn{
+        padding: 15px 36px ;
         border-radius: 37px;
         text-transform: capitalize;
     }
@@ -535,66 +540,119 @@ sup{
 }
 
 /***** End pricing *****/
-@media screen and (max-width: 1200px) and (min-width:577px){
-    .pricing__packages{
-        flex-direction: column;
-    }
-    .pricing__packages-package{
-        margin-bottom: 10px;
-    }
-}
-@media screen and (max-width:576px) {
-    .container{
-        width: 90%;
-    }
-    .leading__cards-card-header{
-        background: var(--light-primary-color);
-    }
-    .leading__cards{
-        flex-direction: column;
-        align-items: center;
-    }
-    .leading__cards-card{
-        width: 100%;
-        margin: 0;
-        margin-bottom: 1.25rem;
-    }
-    .leading__cards-card-info ul {
-        width: 100%;
-    }
-    .leading__cards-card-header{
-        width: 100%;
-        color: var(--text-color);
-    }
-    .person-icon{
-        display: none;
-    }
-    .frame-icon{
-        display: block;
-    }
-    .reviews__cards{
-        flex-direction: column;
-        align-items: center;
-    }
-    .reviews__cards-card{
-        width: 100%;
-        margin: 0;
-        margin-bottom: 1.25rem;
-    }
-    .pricing__packages{
-        flex-direction: column;
-    }
-    .pricing__packages-package{
-        margin-bottom: 10px;
-    }
-}
 
-
-
-
-
-
-
-
-
-
+    /***** media query *****/
+    /***** laptop screen *****/
+    @media screen and (max-width: 1200px) and (min-width:577px) {
+        .navbar .flex-container{
+            justify-content: space-between;
+        }
+        .navbar__list{
+            display: none;
+        }
+        .navbar__action{
+            display: none;
+        }
+        .hero .flex-container{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .hero__info{
+            width: 100%;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .hero__form{
+            width: 70%;
+        }
+        .pricing__packages{
+            flex-direction: column;
+        }
+        .pricing__packages-package{
+            margin-bottom: 10px;
+        }
+    }
+    @media screen and (max-width:576px) {
+            .container{
+            width: 90%;
+        }
+        .hero-bg{
+            background-position-x: 25%;
+        }
+        .hero__title{
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+        .navbar__list{
+            display: none;
+        }
+        .navbar__action{
+            display: none;
+        }
+        .hero .flex-container{
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .hero__action {
+            padding: 40px 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .hero__action button{
+            margin: 10px 0;
+        }
+        .hero__info{
+            width: 100%;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .hero__form{
+            width: 90%;
+        }
+        .leading__cards-card-header{
+            background: var(--light-primary-color);
+        }
+        .leading__cards{
+            flex-direction: column;
+            align-items: center;
+        }
+        .leading__cards-card{
+            width: 100%;
+            margin: 0;
+            margin-bottom: 1.25rem;
+        }
+        .leading__cards-card-info ul {
+            width: 100%;
+        }
+        .leading__cards-card-header{
+            width: 100%;
+            color: var(--text-color);
+        }
+        .person-icon{
+            display: none;
+        }
+        .frame-icon{
+            display: block;
+        }
+        .reviews__cards{
+            flex-direction: column;
+            align-items: center;
+        }
+        .reviews__cards-card{
+            width: 100%;
+            margin: 0;
+            margin-bottom: 1.25rem;
+        }
+        .pricing__packages{
+            flex-direction: column;
+        }
+        .pricing__packages-package{
+            margin-bottom: 10px;
+        }
+        
+    }
+    /***** End media query *****/
