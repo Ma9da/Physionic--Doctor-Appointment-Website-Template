@@ -219,7 +219,6 @@ flex-wrap: wrap;
         -o-border-radius: 5px;
 }
 /***** End hero *****/
-
 /***** leading *****/
 .leading .flex-container{
     align-content: center;
@@ -237,7 +236,7 @@ flex-wrap: wrap;
     font-weight: 700;
     font-size: 2.5rem;
     text-transform: capitalize;
-    padding-bottom: 27px;
+    padding-bottom: 1.6875rem;
 }
 .section__desc{
     color: var(--second-text-color);
@@ -356,8 +355,21 @@ flex-wrap: wrap;
     width: 25%;
 }
 /***** End reviews *****/
-
 /***** faq *****/
+.faq .section__header{
+    margin-bottom: 7.1875rem;
+}
+.reviews__cards{
+    display: flex;
+}
+.reviews__cards-card-info{
+    color: var(--second-text-color);
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+.faq__cards-card-info{
+    margin: 0.3125rem 0;
+}
 .faq .section__header{
     margin-bottom: 7.1875rem;
 }
@@ -393,8 +405,12 @@ flex-wrap: wrap;
     font-weight: 700;
     text-align: left;
     color: var(--text-color);
-}
+    }
+
 /***** End faq *****/
+
+
+
 /***** newsletter *****/
 .newsletter{
     background: var(--text-color);
@@ -534,6 +550,7 @@ sup{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
 /***** End pricing *****/
     /***** media query *****/
     /***** laptop screen *****/
@@ -593,6 +610,17 @@ sup{
             margin: 0;
             margin-bottom: 1.25rem;
         }
+        .pricing__packages{
+            flex-direction: column;
+        }
+        .pricing__packages-package{
+            margin-bottom: 10px;
+        }
+    }
+    @media screen and (max-width:576px) {
+            .container{
+            width: 90%;
+        }
         .reviews__cards-card-img {
             width: 14%;
         }   
@@ -621,113 +649,6 @@ sup{
             padding: 15px 0;
         }
         #subscribe{
-            width: 100%;
-        }
-    }
-    @media screen and (max-width:576px) {
-        .container{
-            width: 90%;
-        }
-        .search-icon{
-            display: block;
-        }
-        .cart-icon{
-            display: block;
-        }
-        .menu-icon{
-            display: block;
-        }
-        .hero-bg{
-            background-position-x: 25%;
-        }
-        .hero__title{
-            font-size: 2.5rem;
-            font-weight: 700;
-        }
-        .navbar__list{
-            display: none;
-        }
-        .navbar__action{
-            display: none;
-        }
-        .hero .flex-container{
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-        }
-        .hero__action {
-            padding: 40px 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-            align-items: center;
-        }
-        .hero__action button{
-            margin: 10px 0;
-        }
-        .hero__info{
-            width: 100%;
-            padding: 2rem 0;
-            text-align: center;
-        }
-        .hero__form{
-            width: 90%;
-        }
-        .leading__cards-card-header{
-            background: var(--light-primary-color);
-        }
-        .leading__cards{
-            flex-direction: column;
-            align-items: center;
-        }
-        .leading__cards-card{
-            width: 100%;
-            margin: 0;
-            margin-bottom: 20px;
-        }
-        .leading__cards-card-info ul {
-            width: 100%;
-        }
-        .leading__cards-card-header{
-            width: 100%;
-            color: var(--text-color);
-        }
-        .person-icon{
-            display: none;
-        }
-        .frame-icon{
-            display: block;
-        }
-        .reviews__cards{
-            flex-direction: column;
-            align-items: center;
-        }
-        .reviews__cards-card{
-            width: 100%;
-            margin: 0;
-            margin-bottom: 1.25rem;
-        }
-        .pricing__packages{
-            flex-direction: column;
-        }
-        .pricing__packages-package{
-            margin-bottom: 10px;
-        }
-        .newsletter .flex-container{
-            flex-direction: column;
-        }
-        .newsletter__subscribe{
-            width: 100%;
-            display: flex;
-            justify-content: center;
-        }
-        .newsletter__submit{
-            right: 1rem;
-        }
-        .newsletter__desc{
-            padding: 15px 0;
-        }
-        .newsletter__header{
             width: 100%;
         }
     }
