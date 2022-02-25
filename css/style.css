@@ -170,12 +170,11 @@ img {
     }
     .active-btn{
         padding: 0.9375rem 2.25rem ;
-        padding-top: 40px;
-    }
-    .active-btn{
-        padding: 15px 36px ;
-        border-radius: 37px;
+        width :11.5625rem;
+        height: 2.625rem;
         text-transform: capitalize;
+        border-radius: 37px;
+        margin-bottom: 1.875rem;
     }
     .diasbled-btn{
         padding:  0.9375rem 2.25rem;
@@ -185,6 +184,8 @@ img {
         color: var(--light-text-color);
         background: none;
         text-transform: capitalize;
+        width :9.625rem;
+        height :2.625rem;
     }
     .hero__form{
         width: 22%;
@@ -623,6 +624,12 @@ footer .flex-container{
         .navbar .flex-container{
             justify-content: space-between;
         }
+        .hero__action {
+            padding-top: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
         .navbar__list{
             display: none;
         }
@@ -697,6 +704,12 @@ footer .flex-container{
     @media screen and (max-width:576px) {
             .container{
             width: 90%;
+        }
+        .hero__action {
+            padding-top: 2.5rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .hero-bg{
             background-position-x: 25%;
