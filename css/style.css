@@ -183,7 +183,7 @@ img {
         border-radius: 37px;
         font-weight: 700;
         color: var(--light-text-color);
-        background-color:  rgba(0, 0, 0, 0.5);
+        background: none;
         text-transform: capitalize;
     }
     .hero__form{
