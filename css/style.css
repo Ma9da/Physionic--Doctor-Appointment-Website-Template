@@ -243,6 +243,8 @@ img {
 }
 .section__header {
 	text-align: center;
+    width: 35%;
+    margin: 0 auto;
 }
 .section__title {
 	color: var(--text-color);
@@ -331,7 +333,7 @@ img {
 /***** reviews *****/
 .reviews{
     background: var(--light-gray);
-    padding: 3.125rem 0;
+    padding: 7rem 0;
 }
 .reviews .flex-container{
     align-items: center;
@@ -630,6 +632,9 @@ footer .flex-container{
         .navbar .flex-container{
             justify-content: space-between;
         }
+        .section__header{
+            width: 100%;
+        }
         .hero__action {
             padding-top: 2.5rem;
             display: flex;
@@ -711,6 +716,9 @@ footer .flex-container{
     @media screen and (max-width:576px) {
             .container{
             width: 90%;
+        }
+        .section__header{
+            width: 100%;
         }
         .hero__action {
             padding-top: 2.5rem;
