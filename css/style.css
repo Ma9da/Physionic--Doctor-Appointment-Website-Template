@@ -437,9 +437,9 @@ img {
 /***** newsletter *****/
 .newsletter{
     background: var(--text-color);
-    min-height: 24vh;
+    min-height: 29vh;
     display: flex;
-    padding: 50px 0;
+    padding: 3.125rem 0;
 }
 .newsletter .flex-container{
     align-items: center;
@@ -474,8 +474,8 @@ img {
 .newsletter__submit{
     position: absolute;
     top: 0;
-    bottom: -136px;
-    right: 3rem;
+    bottom: 0;
+    right: 11%;
     width: 117px;
     height: 58px;
     border: 1px solid #E6E6E6;
@@ -486,6 +486,9 @@ img {
     color: var(--light-text-color);
     padding-bottom: 1.6875rem;
     text-align: left;
+}
+.newsletter__title-responsive{
+    display: none;
 }
 /***** End newsletter *****/
 /***** pricing *****/
@@ -716,10 +719,62 @@ footer .flex-container{
             align-items: center;
             visibility: visible;
         }
+        .newsletter{
+            flex-direction: column;
+        }
+        .newsletter .flex-container{
+            flex-direction: column;
+        }
+        .newsletter__header{
+            width: 100%;
+        }
+        .newsletter__subscribe{
+            width: 100%;
+        }
+        .newsletter__desc.section__desc {
+            padding: 0.9375rem 0;
+        }
+        .newsletter__submit{
+            right: 0;
+        }
+        #subscribe{
+            width: 100%;
+        }
     }
     @media screen and (max-width:576px) {
             .container{
             width: 90%;
+        }
+        .newsletter .flex-container{
+            flex-direction: column;
+        }
+        .newsletter__subscribe{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .newsletter__submit{
+            right: 0;
+        }
+        .newsletter__desc{
+            padding: 0.9375rem 0;
+        }
+        .newsletter__header{
+            width: 100%;
+        }
+        .newsletter__desc.section__desc{
+            display: none;
+        }
+        .section__title.newsletter__title{
+            display: none;
+        }
+        .newsletter__title-responsive{
+            display: block;
+            font-weight: 700;
+            font-size: 1.5rem;
+            text-align: center;
+            padding-bottom: 0.9375rem;
+            color: var(--light-text-color);
         }
         .section__header{
             width: 100%;
@@ -822,27 +877,7 @@ footer .flex-container{
         .pricing__packages-package{
             margin-bottom: 10px;
         }
-        .newsletter{
-            flex-direction: column;
-        }
-        .newsletter .flex-container{
-            flex-direction: column;
-        }
-        .newsletter__header{
-            width: 100%;
-        }
-        .newsletter__subscribe{
-            width: 100%;
-        }
-        .newsletter__submit{
-            right: 0;
-        }
-        .newsletter__desc.section__desc {
-            padding: 15px 0;
-        }
-        #subscribe{
-            width: 100%;
-        }
+
         footer .flex-container{
             flex-direction: column;
         }
