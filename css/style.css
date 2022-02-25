@@ -395,7 +395,9 @@ img {
 .faq .section__header{
     margin-bottom: 7.1875rem;
 }
-
+.faq__cards-card-info-res{
+    visibility: hidden;
+}
 .faq__cards-card-info{
     margin: 0.3125rem 0;
 }
@@ -779,6 +781,12 @@ footer .flex-container{
         .section__header{
             width: 100%;
         }
+        .faq__cards-card-info{
+            display: none;
+        }
+        .faq__cards-card-info-res{
+            visibility: visible;
+        }
         .hero__action {
             padding-top: 2.5rem;
             display: flex;
@@ -870,6 +878,9 @@ footer .flex-container{
         
         .reviews__cards-card-img {
             width: 14%;
+        }
+        .faq__cards-card{
+            width: 75%;
         }   
         .pricing__packages{
             flex-direction: column;
