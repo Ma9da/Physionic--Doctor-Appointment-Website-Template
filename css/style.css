@@ -188,7 +188,8 @@ img {
         height :2.625rem;
     }
     .hero__form{
-        width: 22%;
+        width: 328px;
+        height: 610px;
         padding: 2.3125rem;
         color: var(--text-color);
         background-color: var(--light-text-color);
@@ -206,7 +207,9 @@ img {
         flex-direction: column;
 }
     .hero__form-form input, .hero__form-form select{
-        background-color: #F9F9F9;;
+        width: 246px;
+        height: 50px;
+        background-color: #F9F9F9;
         border: 1px solid #E6E6E6;
         border-radius: 5;
         -webkit-border-radius: 5;
@@ -656,7 +659,8 @@ footer .flex-container{
             text-align: center;
         }
         .hero__form{
-            width: 70%;
+            width: 20.5rem;
+            height: 38.3125rem;
         }
         .leading__cards{
             flex-direction: column;
@@ -754,6 +758,9 @@ footer .flex-container{
         }
         .hero__form{
             width: 90%;
+        }
+        .hero__form-form input, .hero__form-form select{
+            width: 100%;
         }
         .leading__cards-card-header{
             background: var(--light-primary-color);
