@@ -49,6 +49,9 @@ img {
 .navbar .flex-container {
 	align-items: center;
 }
+.navbar .container{
+    width: 100%;
+}
 .navbar {
 	top: 0;
 	width: 100%;
