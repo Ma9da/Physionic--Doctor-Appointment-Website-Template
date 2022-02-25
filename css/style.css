@@ -693,6 +693,10 @@ footer .flex-container{
             width: 100%;
             margin: 0;
             margin-bottom: 1.25rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 0.875rem 1.1875rem;
         }
         .reviews__cards-card-img {
             width: 14%;
