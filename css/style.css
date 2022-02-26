@@ -708,6 +708,8 @@ footer .flex-container{
         }  
         .pricing__packages{
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         .pricing__packages-package{
             margin-bottom: 10px;
