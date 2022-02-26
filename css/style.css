@@ -372,7 +372,9 @@ img {
 	padding: 1.875rem 2.1875rem;
 	margin: 0 0.75rem;
 }
-
+.section__title-res{
+    display: none;
+}
 .reviews__cards-card-img{
     width: 25%;
 }
@@ -880,6 +882,17 @@ footer .flex-container{
         
         .reviews__cards-card-img {
             width: 14%;
+        }
+        .section__title-res{
+            display: block;
+            color: var(--text-color);
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-transform: capitalize;
+    padding-bottom: 1.6875rem;
+        }
+        .reviews .section__title{
+            display: none;
         }
         .faq__cards-card{
             width: 75%;
