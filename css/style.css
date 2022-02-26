@@ -892,7 +892,7 @@ footer .flex-container{
         text-transform: capitalize;
     padding-bottom: 1.6875rem;
         }
-        .reviews .section__title{
+        .full {
             display: none;
         }
         .faq__cards-card{
@@ -903,11 +903,16 @@ footer .flex-container{
             justify-content: center;
             align-items: center;
             align-content: center;
+            width: 75%;
         }
         .pricing__packages-package{
+            width: 100%;
             margin-bottom: 10px;
-            width: 70%;
             padding: 30px 17px;
+        }
+        .pricing__packages-action{
+            margin: 0;
+            width: 100%;
         }
         footer .flex-container{
             flex-direction: column;
