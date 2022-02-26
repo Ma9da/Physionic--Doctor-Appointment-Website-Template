@@ -565,6 +565,7 @@ sup{
     font-size: 0.875rem;
     font-weight: 600;
     padding: 5px 0;
+    line-height: 1.5rem;
 }
 .pricing__packages-info li:nth-last-child(-n+2){
     list-style-image: url(../assets/icons/icn-circle\ circle-xs\ mute.svg); 
@@ -899,11 +900,15 @@ footer .flex-container{
         }   
         .pricing__packages{
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            align-content: center;
         }
         .pricing__packages-package{
             margin-bottom: 10px;
+            width: 70%;
+            padding: 30px 17px;
         }
-
         footer .flex-container{
             flex-direction: column;
         }
